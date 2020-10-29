@@ -1,0 +1,13 @@
+/*IMPORT FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+/*IMPORT CSS FILES*/
+@import 'css/short.css';
+@import 'css/header.css';
+@import 'css/content.css';
+@import 'css/footer.css';
+@import 'css/reset.css';
+@import 'css/responsive.css';
+
+
+
