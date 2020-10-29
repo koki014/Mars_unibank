@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap'); 
+
+#bgimg {
+    
+    background-image: url(../image/1601641000bgg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.card{
+    border: none;
+}
+.card-header{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight:700;
+    color: #5a6771;
+    font-family: 'Source Sans Pro', Arial;
+    border: none;
+}
+.card-title{
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 110px;
+    color: #ff6b00;
+    font-family: 'Source Sans Pro', Arial;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 110px;
+    color:#ff6b00;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.card-footer a{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 110px;
+    color:#ff6b00;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: underline;
+}
