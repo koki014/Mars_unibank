@@ -1,0 +1,105 @@
+.metn1{
+    font-family: source sans pro,Arial;
+    font-weight: 300px;
+    color: #ff6b00;
+    line-height: 61px;
+    margin-top: 10%;
+}
+
+.metn1-5{
+    font-family: source sans pro,Arial;
+    line-height: 31px;
+    color: #5a6771;
+    max-width: 85%;
+}
+
+.duyme1{
+    background-color: #ff6b00;
+    border: none;
+    border-bottom-left-radius: 0 !important;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: white;
+    
+}
+
+.chevron{
+    font-size: 80%;
+    padding-left: 5px;
+}
+
+.link1{
+    color: #5a6771;
+    text-decoration: underline;
+    padding-left: 20px;
+    
+}
+
+.link3{
+    color: #5a6771;
+    text-decoration: underline;
+    font-size: 50%;
+}
+
+.img{
+    text-align: right;
+}
+
+.img2{
+    text-align: left;
+}
+
+.img3{
+    text-align: right;
+}
+
+.metn2{
+    font-family: source sans pro,Arial;
+    font-weight: 400;
+    font-size: 58px;
+    color: #ff6b00;
+    line-height: 61px;
+    margin-top: 10%;
+}
+
+.metn2-5{
+    font-family: source sans pro,Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #5a6771;
+    max-width: 85%;
+
+}
+
+.mikro{
+    text-align: left;
+}
+
+.mikro2{
+    width: 600px;
+}
+
+.metn3{
+    font-family: source sans pro,Arial;
+    font-weight: 400;
+    font-size: 58px;
+    color: #ff6b00;
+    line-height: 61px;
+    margin-top: 10%;
+}
+
+.metn3-5{
+    font-family: source sans pro,Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #5a6771;
+    max-width: 85%;
+}
+
+.btn3{
+    text-align: left;
+    font-size: 200%;
+    padding-left: 0px !important;
+}

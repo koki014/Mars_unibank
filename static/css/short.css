@@ -2,3 +2,66 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box; 
 }
+<<<<<<< HEAD
+=======
+
+/*online chat*/
+
+.online-chat{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 150px;
+    right: 25px;
+    border-radius: 100px 100px 100px 0;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: .3s all;
+    box-shadow: 2px 2px 5px 3px   rgba(0, 0, 0, 0.493);
+    background-color: rgb(240, 240, 240);
+}
+.fa-facebook-messenger{
+    font-size: 40px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: .3s all;
+    color: #ff6b00;
+}
+.online-chat:hover{
+    width: 82px;
+    height: 82px;
+    background-color:#ff6b00;
+    transform: rotate(-40deg);
+}
+.fa-facebook-messenger:hover{
+    font-size: 55px;
+    color: whitesmoke;
+    transform: rotate(19deg);
+}
+
+.collapseform{
+    position: fixed;
+    width: 400px;
+    bottom: 250px;
+    right:100px;
+}
+
+.collapseformCard{
+    color: white;
+    box-shadow: 2px 2px 5px 3px   rgba(0, 0, 0, 0.493);
+    background-color: #ff6b00;
+}
+
+.text-unibank{
+    
+    color:#ff6b00;
+}
+
+.text-font{
+    margin-bottom: 5px;
+    font-size:24px;
+}
+>>>>>>> d3ffa1642c64238ec3528360b170af627b3128db
