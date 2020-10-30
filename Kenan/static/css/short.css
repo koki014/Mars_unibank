@@ -5,22 +5,6 @@ body{
 
 /*online chat*/
 
-.online-chat{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 150px;
-    right: 25px;
-    border-radius: 100px 100px 100px 0;
-    width: 70px;
-    height: 70px;
-    cursor: pointer;
-    transform: rotate(0deg);
-    transition: .3s all;
-    box-shadow: 2px 2px 5px 3px   rgba(0, 0, 0, 0.493);
-    background-color: rgb(240, 240, 240);
-}
 .fa-facebook-messenger{
     font-size: 40px;
     cursor: pointer;

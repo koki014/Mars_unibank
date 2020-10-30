@@ -1,0 +1,192 @@
+.content-debet{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+/*CARD NAVBAR*/
+.card-nav{
+    width: 100%;
+    height:90px;
+    margin-top: 50px;
+}
+
+.card-nav--list{
+    display: flex;
+
+}
+.card-nav--list li{
+    margin-right: 20px;
+    padding: 10px 0;
+}
+.card-nav--active{
+    border-bottom: 1px solid #ff6b00;
+}
+.card-nav--active a{
+    color: #5a6771 !important;
+}
+
+.card-nav--list a{
+    text-decoration: none;
+    color: #a6adb2;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*CARD HEADER*/
+
+/*#*/
+
+.card-header{
+    width: 100%;
+    padding:50px 35px;
+    border-radius: 20px 20px 0 0;
+    background-color:#4c0644 ;
+}
+
+.card-header--top{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 340px;
+}
+.card-images{
+width: 45%;
+}
+.card-images img{
+    max-width:440px;
+    max-height: 280px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.404);
+}
+
+.card-info{
+    width: 55%;
+    color: white;
+}
+.card-info h3{
+font-size: 40px;
+margin-bottom: 30px;
+}
+
+.card-info p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.card-info a{
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+
+}
+
+.card-header--bottom{
+    width: 100%;
+    text-align: center;
+}
+
+.card-header--bottom span{
+    width:100%;
+    font-weight: 600;
+    color: rgba(255,255,255,.25);;
+   
+}
+.card-header--bottom span::before{
+content:' ';
+display: table-cell;
+width: 400px;
+position: relative;
+top:-5px;
+border:1px solid rgba(255,255,255,.25);
+}
+
+.card-header--bottom span::after{
+    content:' ';
+    display: table-cell;
+    width: 400px;
+    position: relative;
+    top:-5px;
+    border:1px solid rgba(255,255,255,.25);;
+}
+
+
+.cards-skills{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.card-skill{
+    margin-right:5px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #f7b200;
+}
+.card-skill i{
+    font-size: 75px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color: #f7b200;
+}
+.card-skill p{
+    margin-bottom: 5px;
+}
+
+
+/*card body*/
+
+.card-body{
+    width:100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.debet-card{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(249, 249, 249);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debet-images{
+    width: 45%;
+    display: flex;
+    margin-right: 22px;
+}
+
+.debet-images img{
+    max-width:440px;
+    max-height: 280px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.116);
+}
+
+.debet-info{
+    width: 55%;
+    height: 280px;
+    color: #5a6771;
+}
+    .debet-info h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+
+    .debet-info p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 35px;
+    }
+    .debet-info a{
+        font-size: 18px;
+        text-decoration: underline;
+        color: #5a6771;
+        font-weight: bold;
+
+    }

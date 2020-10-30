@@ -2,7 +2,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box; 
 }
-
+* :after, :before {
+    box-sizing: border-box;
+}
 /*online chat*/
 
 .online-chat{
@@ -56,6 +58,17 @@ body{
 .text-unibank{
     
     color:#ff6b00;
+}
+
+.deactive,
+.ham-deactive,
+.search-form-deactive{
+display: none;
+}
+
+.ham-active,
+.search-form-active{
+    display: block;
 }
 
 .text-font{

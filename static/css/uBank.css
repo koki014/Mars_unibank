@@ -1,0 +1,57 @@
+/* .badges img{
+    display: inline;
+    width: 134px;
+    height: 25px;
+    
+} */
+
+.badge1{
+    width: 133px;
+    height: 55px;
+    
+
+}
+
+.badge2{
+    width: 120px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.badge3{
+    width: 120px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.image1{
+    width: 100%;
+}
+
+.metn1{
+    color: #ff6b00;
+}
+
+.metn1-5{
+    font-family: source sans pro,Arial;
+    line-height: 31px;
+    color: #5a6771;
+    max-width: 85%;
+}
+
+.link1{
+    color: #5a6771;
+    text-decoration: underline;
+    padding-right: 3%;
+    text-align: left !important;
+}
+#card-phone{
+    background-color: #fafafa;
+    padding-top: 20px;
+    
+}
+.about{
+    display: inline;
+    padding-top: 20px;
+    margin-top: 20px;
+}

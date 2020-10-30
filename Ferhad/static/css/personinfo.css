@@ -19,8 +19,8 @@ padding: 10px;
 
 .person-content{
     display: flex;
-    margin: 10px 0;
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
     height:325px;
     background-color: white                                                         ;
     
