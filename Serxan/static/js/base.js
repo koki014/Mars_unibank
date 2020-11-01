@@ -8,6 +8,7 @@ searchBtn = document.querySelector('#search-nav');
 searchForm = document.querySelector('#search-form');
 searchClose = document.querySelector('#search-close');
 hamBtn = document.querySelector('#ham-btn');
+hamBtn2 = document.querySelector('#ham-btn-2');
 hamMenu = document.querySelector('#ham-menu');
 hamClose = document.querySelector('#ham-close')
 //CLICK BTN
@@ -19,6 +20,15 @@ hamBtn.addEventListener('click', function() {
     }
 
 })
+
+hamBtn2.addEventListener('click', function() {
+    if (hamMenu.classList.contains('ham-deactive')) {
+        hamMenu.classList.remove('ham-deactive');
+        hamMenu.classList.add('ham-active');
+    }
+
+})
+
 
 hamClose.addEventListener('click', function() {
     if (hamMenu.classList.contains('ham-active')) {

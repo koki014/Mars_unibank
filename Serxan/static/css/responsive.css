@@ -1,24 +1,26 @@
 /*Responsive Design / MQ*/
 
     /* For Laptop/*/
-
 @media only screen and (max-width:1600px){
 
-     
     /*Header*/
     .header,
     .navbar,
     .card-header--top,
     .card-header--bottom,
     .card-header,
+    .credit-card-header,
     .content-debet,
     .footer-container{
-        width: 90%;
+        width: 95%;
     }
     
+    .credit-card-header--top,
     .card-header--top{
-        height: 240px;
+        height: 300px;
     }
+   
+    .credit-card-header--bottom
     .card-header--bottom{
         width: 100%;
         margin-top: 20px;
@@ -47,52 +49,66 @@
         font-size: 15px !important;
     }
     /*Content*/
+    .credit-card-header,
     .card-header{
         padding:50px 35px;
     }
+    
 
-
+    .credit-card-header--bottom span::before,
+    .credit-card-header--bottom span::after,
     .card-header--bottom span::before,
     .card-header--bottom span::after{
-        width: 280px;
+        width: 310px;
         }
 
+
+    .credit-cards-skills
     .cards-skills{
-            width: 95%;
+        width: 95%;
     }
    
     .card-images,
-    .debet-images{
-        width: 40% !important;
+    .debet-images,
+    .credit-card-images{
+        width: 45% !important;
     }
 
     .debet-info{
         height: 210px;
     }
+    .credit-card-images img,
     .card-images img,
     .debet-images img{
-        max-width:340px;
-        height: 210px;
+        max-width:95% !important;
+        height: 250px;
     }
+    .credit-card-info,
     .card-info{
         width: 55%;
     }
+    .credit-card-info h3,
     .card-info h3{
     font-size: 35px;
     margin-bottom: 25px;
     }   
    
+    .credit-cards-skills
     .cards-skills{
         margin-top: 25px;
     }
 
+    .credit-card-skill,
     .card-skill{
         font-size: 22px;
     }
 
+    .credit-card-skill i
     .card-skill i{
         font-size: 60px;
     }
+
+
     /*Footer*/
     .footer-social{
         margin-top: 20px;
@@ -119,176 +135,231 @@
 
 }
 
+    /* For tablet */
 @media only screen and (max-width:996px){
 
- /*Header*/
- .header{
-    width: 95%;
-    margin-bottom: 25px;
-    border-bottom: none;
-}
-.ham-btn{
-    position: absolute;
-    top: 25px;
-    left: -15px;
-}
-.navbar {
-    display: none;
-}
+    /*Header*/
+    .header{
+        width: 95%;
+        margin-bottom: 25px;
+        border-bottom: none;
+    }
+    .ham-btn{
+        position: absolute;
+        top: 25px;
+        left: -15px;
+    }
+    .navbar {
+        display: none;
+    }
 
-/*CONTENT*/
-.content-debet{
-    width: 95%;
-}
+    /*CONTENT*/
+    .content-debet{
+        width: 95%;
+    }
+    .more-card-body,
+    .card-body{
+        width:720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 
-.debet-card{
-    flex-direction: column;
-    width: 95%;
-    margin:0 0 80px 20px;
-    padding: 20px 0 20px 20px;
-}
 
-.card-info,
-.debet-info{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    margin-top:25px;
-    justify-content: flex-start;
-}
-.debet-info{
-    height: 150px;
-}
-.debet-info a{
-    margin-top: 15px;
-}
-.card-header--bottom{
-    margin-top: 350px;
-    margin-left: 14px;
-}
-.card-skill{
-    margin-bottom: 50px;
-}
-.card-header--bottom span::before,
-.card-header--bottom span::after{
-    display: none;
-}
-
-.cards-skills{
-    width: 100%;
-    flex-direction: column;
-}
-.card-skill i{
-    margin-bottom: 15px;
-}
-
-.card-images,
-.debet-images{
-    width: 100% !important;
-    flex-direction: column;
-}
-.card-images img,
-.debet-images img{
-    max-width:100%;
-
-}
-.card-images img{
-    max-height:100%;
-}
-.card-header{
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-}
-.card-header--top{
-    max-width:100%;
-    flex-direction: column;
-    align-items: center;
-}
-.card-header{
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 20px;
+    .more-debet-card,
+    .debet-card,
+    .card-header,
+    .credit-card-header{
+        display:flex;
+        flex-direction: column;
+        max-width:720px;
+        padding:0;
+        margin: 0 auto;
     
-}
-.card-images{
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
+    }
+
+    .credit-card-info,
+    .card-info,
+    .debet-info{
+        width:670px !important;
+        display: flex;
+        flex-direction: column;
+        margin-top:30px;
+        justify-content: flex-start;
+    }
+    .debet-info{
+        height: 150px;
+        padding:0 25px;
+        margin-bottom: 100px;
+    }
+    .debet-info a{
+        margin-top: 15px;
+    }
+
+    .credit-card-header--bottom,
+    .card-header--bottom{
+        margin-top: 400px !important;
+        flex-direction: column;
+    }
+
+    .credit-card-skill,
+    .card-skill{
+        margin-bottom: 50px;
+    }
+
+    .credit-card-header--bottom span::before,
+    .credit-card-header--bottom span::after,
+    .card-header--bottom span::before,
+    .card-header--bottom span::after{
+        width:200px;
+    }
+
+    .credit-cards-skills,
+    .cards-skills{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .credit-card-skill i,
+    .card-skill i{
+        margin-bottom: 15px;
+    }
+
+    .credit-card-images,
+    .card-images,
+    .debet-images{
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 50px !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .credit-card-images img,
+    .card-images img
+    {
+        max-width:100% !important;
+        height:420px !important;
+
+    }
+
+    .debet-images img{
+        width:670px !important;
+        height:415px !important;
+        max-width: 100%;
+    }
+
+    .credit-card-images img,
+    .card-images img{
+        max-height:100%;
+    }
+
+    .credit-card-header,
+    .card-header{
+        padding: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .credit-card-header--top,
+    .card-header--top{
+        max-width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .credit-card-header,
+    .card-header{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+
+    .credit-card-images,
+    .card-images{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .deactive{
+        display: block;
+    }
+    .active-info{
+        display: none;
+    }
+    .card-nav{
+        padding: 20px;
+    }
+    .card-nav--active{
+        border-bottom: none;
+    }
+    .card-nav--list{
+        border-bottom: 1px solid #ff6b00;
+    }
+
+
+    .logo img{
+        position: absolute;
+        top: 27px;
+        left:60px;
+        max-width: 150px;
+    }
+    .user-selection{
+        display: none;
+    }
+
+
+    /*Content*/
+    .content-debet{
+        width: 100%;
+        border-bottom: 1px solid #d6d9db;
+    }
+
+    /*Footer*/
+
+    .footer-container{
+        width:100%;
+        padding: 10px;
+        height: 120px;
+    }
+    .footer-social{
+        position: relative;
+        height: 90%;
+        left: 0;
+        bottom:120px;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d6d9db;
+    }
+    .copright{
+        display: flex;
+        height: 10%;
+        padding: 10px;
+        align-items: center;
+        border-top: none;
+        flex-direction:column-reverse;
+    }
+
+    .copy,
+    .copy-logo{
+        align-items: center;
+        margin-top: 20px;
+    }
+    .footer-menu{
+        display: none !important;
+    }
+
 }
 
-.deactive{
-    display: block;
-}
-.active-info{
-    display: none;
-}
-.card-nav{
-    padding: 20px;
-}
-.card-nav--active{
-    border-bottom: none;
-}
-.card-nav--list{
-    border-bottom: 1px solid #ff6b00;
-}
 
-
-.logo img{
-    position: absolute;
-    top: 27px;
-    left:60px;
-    max-width: 150px;
-}
-.user-selection{
-    display: none;
-}
-
-
-/*Content*/
-.content-debet{
-    width: 100%;
-    border-bottom: 1px solid #d6d9db;
-}
-
-/*Footer*/
-
-.footer-container{
-    width:100%;
-    padding: 10px;
-    height: 120px;
-}
-.footer-social{
-    position: relative;
-    height: 90%;
-    left: 0;
-    bottom:120px;
-    margin-top: 150px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #d6d9db;
-}
-.copright{
-    display: flex;
-    height: 10%;
-    padding: 10px;
-    align-items: center;
-    border-top: none;
-    flex-direction:column-reverse;
-}
-
-.copy,
-.copy-logo{
-    align-items: center;
-    margin-top: 20px;
-}
-.footer-menu{
-    display: none;
-}
-
-}
-
-
- /* For ladscape tablet and large screen phone*/
+    /* For phone */
 @media only screen and (max-width:768px){
 
   /*Header*/
@@ -296,165 +367,186 @@
     width: 95%;
     margin-bottom: 25px;
     border-bottom: none;
-}
-.ham-btn{
-    position: absolute;
-    top: 25px;
-    left: -15px;
-}
-.navbar {
-    display: none;
-}
+    }
 
-/*CONTENT*/
-.content-debet{
-    width: 95%;
-}
+    .ham-btn{
+        position: absolute;
+        top: 25px;
+        left: -15px;
+    }
+    .navbar {
+        display: none;
+    }
 
-.debet-card{
-    flex-direction: column;
-    width: 95%;
-    margin:0 0 80px 15px;
-    padding: 20px 0 20px 20px;
-}
+    /*CONTENT*/
+    .content-debet{
+        width: 95%;
+    }
 
-.card-info,
-.debet-info{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    margin-top:20px;
-    justify-content: flex-start;
-}
-.debet-info{
-    margin-bottom:10px;
-    height: 150px;
-}
-.debet-info a{
-    margin: 10px 0;
-}
-.card-header--bottom{
-    margin-top: 270px;
-    margin-left: 14px;
-}
-.card-skill{
-    margin-bottom: 50px;
-}
-.card-header--bottom span::before,
-.card-header--bottom span::after{
-    display: none;
-}
+    .more-debet-card,
+    .debet-card{
+        flex-direction: column;
+        width: 95%;
+        margin:0 0 80px 15px;
+        padding: 20px 0 20px 20px;
+    }
 
-.cards-skills{
-    width: 100%;
-    flex-direction: column;
-}
-.card-skill i{
-    margin-bottom: 15px;
-}
+    .credit-card-info,
+    .card-info,
+    .debet-info{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-top:20px;
+        justify-content: flex-start;
+    }
+    .debet-info{
+        margin-bottom:10px;
+        height: 150px;
+    }
+    .debet-info a{
+        margin: 10px 0;
+    }
+    .credit-card-header--bottom,
+    .card-header--bottom{
+        margin-top: 270px;
+        margin-left: 14px;
+    }
 
-.card-images,
-.debet-images{
-    width: 100% !important;
-    flex-direction: column;
-}
-.card-images img,
-.debet-images img{
-    max-width:100%;
-    max-height:100%;
-}
-.card-header{
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-}
-.card-header--top{
-    width:100%;
-   
-    flex-direction: column;
-}
-.card-header{
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 20px;
-    
-}
-.card-images{
-    width: 100%;
-    justify-content: center;
-}
+    .credit-card-skill,
+    .card-skill{
+        margin-bottom: 50px;
+    }
 
-.deactive{
-    display: block;
-}
-.active-info{
-    display: none;
-}
-.card-nav{
-    padding: 20px;
-}
-.card-nav--active{
-    border-bottom: none;
-}
-.card-nav--list{
-    border-bottom: 1px solid #ff6b00;
-}
+    .credit-card-header--bottom span::before,
+    .credit-card-header--bottom span::after,
+    .card-header--bottom span::before,
+    .card-header--bottom span::after{
 
+         display: none;
+    }
 
-.logo img{
-    position: absolute;
-    top: 27px;
-    left:60px;
-    max-width: 150px;
-}
-.user-selection{
-    display: none;
-}
+    .credit-cards-skills,
+    .cards-skills{
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .credit-cards-skill i,
+    .card-skill i{
+        margin-bottom: 15px;
+    }
 
-/*Content*/
-.content-debet{
-    width: 100%;
-    border-bottom: 1px solid #d6d9db;
-}
+    .credit-card-images,
+    .card-images,
+    .debet-images{
+        width: 100% !important;
+        flex-direction: column;
+    }
 
-/*Footer*/
+    .credit-card-images img,
+    .card-images img,
+    .debet-images img{
+        max-width:100%;
+        max-height:100%;
+    }
 
-.footer-container{
-    width:100%;
-    padding: 10px;
-    height: 120px;
-}
-.footer-social{
-    position: relative;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    bottom:120px;
-    margin: 120px 0 20px 15px;
-    border-bottom: 1px solid #d6d9db;
-}
-.copright{
-    display: flex;
-    width:100%;
-    height: 10%;
-    padding: 10px;
-    align-items: center;
-    border-top: none;
-    flex-direction:column-reverse;
-}
+    .credit-card-header,
+    .card-header{
+        padding: 25px;
+        justify-content: center;
+        align-items: center;
+    }
 
-.copy,
-.copy-logo{
-    width:100%;
-    align-items: center;
-    margin-top: 20px;
-}
-.footer-menu,
-.online-chat{
-    display: none;
-}
+    .credit-card-header--top,
+    .card-header--top{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .credit-card-header,
+    .card-header{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+
+    .credit-card-images,
+    .card-images{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .deactive{
+        display: block;
+    }
+    .active-info{
+        display: none;
+    }
+    .card-nav{
+        padding: 20px;
+    }
+    .card-nav--active{
+        border-bottom: none;
+    }
+    .card-nav--list{
+        border-bottom: 1px solid #ff6b00;
+    }
 
 
+    .logo img{
+        position: absolute;
+        top: 27px;
+        left:60px;
+        max-width: 150px;
+    }
+    .user-selection{
+        display: none;
+    }
+
+
+    /*Content*/
+    .content-debet{
+        width: 100%;
+        border-bottom: 1px solid #d6d9db;
+    }
+
+    /*Footer*/
+
+    .footer-container{
+        width:100%;
+        padding: 10px;
+        height: 120px;
+    }
+    .footer-social{
+        position: relative;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        bottom:120px;
+        margin: 120px 0 20px 15px;
+        border-bottom: 1px solid #d6d9db;
+    }
+    .copright{
+        display: flex;
+        width:100%;
+        height: 10%;
+        padding: 10px;
+        align-items: center;
+        border-top: none;
+        flex-direction:column-reverse;
+    }
+
+    .copy,
+    .copy-logo{
+        width:100%;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .footer-menu,
+    .online-chat{
+        display: none !important;
+    }
 
 }

@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     transition:.2s;
-    height: 1010px;
+    height: 1035px;
     background-color:#1f130b;
     z-index: 9999;
 }
@@ -92,4 +92,39 @@
     font-size: 18px;
     color: #d6d6d6;
     margin-bottom:15px;
+}
+
+
+.all-unibank--btn{
+  width:71%;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  margin-top: 430px !important;
+}
+
+.unibank--btn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color:transparent;
+  padding:10px 20px;
+  border-radius:5px;
+  font-size:16px;
+  font-weight:600;
+  border:1px solid white;
+  color:white;
+  display:flex;
+  align-items:center;
+  transition:.2s;
+}
+.unibank--btn i {
+  font-size:14px;
+  color:white;
+  margin-right:10px;
+}
+
+.unibank--btn:hover{
+  color: bisque;
+  text-decoration: none;
+  
 }

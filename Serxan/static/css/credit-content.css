@@ -1,0 +1,158 @@
+/*CARD HEADER*/
+
+.credit-card-header{
+    width: 100%;
+    padding:50px 35px;
+    margin-bottom: 80px;
+    border-radius: 10px 10px 0 0;
+    background-color:#f8b200;
+}
+
+.credit-card-header--top{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 340px;
+}
+.credit-card-images{
+width: 45%;
+}
+.credit-card-images img{
+    max-width:440px;
+    max-height: 280px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.404);
+}
+
+.credit-card-info{
+    width: 55%;
+    color: white;
+}
+.credit-card-info h3{
+font-size: 40px;
+margin-bottom: 30px;
+}
+
+.credit-card-info p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.credit-card-info a{
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+
+}
+
+.credit-card-header--bottom{
+    width: 100%;
+    text-align: center;
+}
+
+.credit-card-header--bottom span{
+    width:100%;
+    font-weight: 600;
+    color: rgba(255,255,255,.25);;
+   
+}
+.credit-card-header--bottom span::before{
+content:' ';
+display: table-cell;
+width: 400px;
+position: relative;
+top:-5px;
+border:1px solid rgba(255,255,255,.25);
+}
+
+.credit-card-header--bottom span::after{
+    content:' ';
+    display: table-cell;
+    width: 400px;
+    position: relative;
+    top:-5px;
+    border:1px solid rgba(255,255,255,.25);;
+}
+
+
+.credit-cards-skills{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.credit-card-skill{
+    width:18%;
+    margin-right:5px;
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.credit-card-skill i{
+    font-size: 65px !important;
+    font-weight:lighter;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.credit-card-skill p{
+    margin-bottom: 5px;
+}
+
+.credit-card--btn{
+    display:flex;
+    align-items: center;
+}
+
+.order-btn{
+    width: 120px;
+    height:50px;
+    margin-right:30px;
+    font-size: 18px;
+    font-weight:600;
+    border-radius:5px;
+    border: none;
+    transition:.4s;
+    background-color:white;
+    color: #f8b200;
+}
+
+.order-btn:hover{
+    background-color:rgba(255, 255, 255, 0.835);
+}
+
+/*MORE CREDIT*/
+.more-card-body{
+    width:100%;
+    margin: 0 auto;
+}
+
+.more-debet-card{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(249, 249, 249);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-order-btn{
+    width: 120px;
+    height:50px;
+    margin-right:30px;
+    font-size: 18px;
+    font-weight:600;
+    border-radius:5px;
+    border: none;
+    background-color:#ff6b00;
+    transition:.4s;
+    color: #ffffff;
+}
+
+.more-order-btn:hover{
+
+    background-color:#ff6a00ce;
+}
