@@ -11,10 +11,12 @@
     margin-top: 50px;
 }
 
+
 .card-nav--list{
     display: flex;
-
+    flex-direction: row;
 }
+
 .card-nav--list li{
     margin-right: 20px;
     padding: 10px 0;
